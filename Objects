@@ -25,3 +25,17 @@ let fruit = 'apple';
 let bag = {
   [fruit + 'Computers']: 5 // bag.appleComputers = 5
 };
+
+
+///
+
+function makeUser(name, age) {
+  return {
+    name: name,
+    age: age,
+    // ...other properties
+  };
+}
+
+let user = makeUser("John", 30);
+alert(user.name); // John
